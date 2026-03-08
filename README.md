@@ -8,7 +8,7 @@ INTRODUCTION:
 
 Sharing a transmission medium is a core requirement in telecommunications. Without the ability to multiplex, only one user could occupy a channel at a given time, rendering modern mobile networks and broadcasting impossible. Frequency Division Multiplexing (FDM) solves this by assigning each user a specific portion of the radio frequency spectrum. When digital data is transmitted using FDM through the variation of a carrier wave's power, the process is known as Amplitude Shift Keying (ASK). This scheme represents a digital one by the presence of a carrier and a digital zero by its absence, making it a fundamental building block for optical fiber and simple radio systems.
 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/15.jpg?raw=true)
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -20,7 +20,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/15a.jpg?raw=true)
 
 OUTPUT:
 
@@ -45,7 +45,7 @@ INTRODUCTION:
 
 Frequency Shift Keying is the digital version of FM. Instead of a continuous change in frequency, the carrier jumps between two specific frequencies to represent a logic one and a logic zero. This method is widely used in low-speed data links and early computer modems because it is more resistant to noise than Amplitude Shift Keying. By keeping the amplitude constant, the signal can survive interference that would normally corrupt an ASK transmission.
 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/16.jpg?raw=true)
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -57,7 +57,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/16a.jpg?raw=true)
 
 OUTPUT:
 
@@ -81,7 +81,7 @@ INTRODUCTION:
 
 Phase Shift Keying is one of the most efficient ways to send digital data. Instead of changing the frequency or amplitude, we change the phase of the carrier wave. For a logic one, the wave starts at zero degrees; for a logic zero, the wave is flipped 180 degrees. This allows for high-speed transmission because the carrier frequency stays constant, making it easier to fit many users into a crowded frequency spectrum.
 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/17.jpg?raw=true)
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -93,7 +93,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/17a.jpg?raw=true)
 
 OUTPUT:
 
@@ -117,7 +117,6 @@ INTRODUCTION:
 
 Quadrature Phase Shift Keying (QPSK) takes PSK a step further by shifting the phase into four possible positions instead of two. This allows us to send two bits of information for every single change in the carrier wave. By using both the Sine and Cosine versions of a carrier (which are 90 degrees apart), we can double the data rate without increasing the bandwidth of the channel.
 
-![Image Alt]()
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -129,7 +128,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/18.jpg?raw=true)
 
 OUTPUT:
 
@@ -153,7 +152,6 @@ INTRODUCTION:
 
 Direct Sequence Spread Spectrum (DSSS) is a sophisticated modulation technique used to improve signal security and resistance to interference. Instead of transmitting a narrow-band signal, DSSS "spreads" the message across a much wider bandwidth. This is achieved by multiplying the digital message with a high-speed pseudo-noise (PN) code. To an unintended receiver, the signal looks like low-level background noise. However, a receiver with the matching PN code can "despread" the signal, recovering the original message while effectively canceling out narrow-band interference.
 
-![Image Alt]()
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -166,7 +164,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/19.jpg?raw=true)
 
 OUTPUT:
 
@@ -191,7 +189,6 @@ INTRODUCTION:
 
 Traditional radio receivers rely on complex analog "mixing" stages to shift high-frequency signals down to a range that can be processed. Software Defined Radio (SDR) simplifies this by using Undersampling. By intentionally violating the standard Nyquist rule (sampling at less than twice the carrier frequency, but more than twice the message bandwidth), we can use aliasing to our advantage. This technique allows a high-frequency signal to be "folded" down directly into the baseband, where it can be demodulated using software algorithms rather than heavy hardware.
 
-![Image Alt]()
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -204,7 +201,7 @@ OBJECTIVES:
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 BLOCK DIAGRAM : 
-![Image Alt]()
+![Image Alt](https://github.com/LechugaKarl/NEC3202-Laboratory-Report-3/blob/main/assets/20.jpg?raw=true)
 
 OUTPUT:
 
